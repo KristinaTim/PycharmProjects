@@ -30,12 +30,10 @@ class Programmer(Company):
         self.lever_up()
     @staticmethod
     def knowledge_base():
-        print(Company.levels)
+        print('Молодец', Company.levels)
+pandadoc=Company(1)
 artsiom=Programmer('Artem',1)
 artsiom.knowledge_base()
 while artsiom.s_lead()==False:
     artsiom.level_up()
 artsiom.s_lead()
-
-
-
